@@ -1,0 +1,17 @@
+name: basic_web_server
+description: This is a simple HTTP web server, that will listen with routes.
+version: 1.0.0
+repository: https://github.com/SirToby-Gore/dart-web-server
+
+environment:
+  sdk: ^3.8.0
+
+# Add regular dependencies here.
+dependencies:
+  rich_stdout: ^1.0.0
+  mysql1: ^0.20.0 
+  path: ^1.9.1
+ 
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
